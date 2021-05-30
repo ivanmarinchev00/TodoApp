@@ -1,0 +1,11 @@
+{
+    "ignore": [".git", "node_modules"],
+    "watch": ["./"],
+    "exec": "npm start",
+    "ext": "ts",
+    "env": {
+        "MONGO_USER": "imarinchev",
+        "MONGO_PASSWORD": "databasePass",
+        "MONGO_DB": "TodoApp"
+    }
+}
